@@ -1,16 +1,45 @@
-# React + Vite
+# Flowsheet 🧪
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A platform for Chemical Engineering students at Vanderbilt to anonymously share their four-year course plans, including notes on sequencing, semester availability, and study abroad.
 
-Currently, two official plugins are available:
+## The problem
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Small engineering majors like ChemE often lack accessible peer guidance on course planning. Flowsheet lets students browse real four-year plans submitted by their peers, so they can learn what worked (and what didn't).
 
-## React Compiler
+## Built with
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (via Vite) — frontend framework
+- **JavaScript** — language
+- **CSS** — custom styling
+- **Supabase** *(coming soon)* — backend & database
+- **Vercel** *(coming soon)* — hosting
 
-## Expanding the ESLint configuration
+## Current status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚧 **In development.** Currently a static MVP with hardcoded sample plans. Features so far:
+
+- Browse course plans as cards
+- Search by name or track
+- Sort by year or name
+- Colored year badges (Freshman / Sophomore / Junior / Senior)
+
+## Roadmap
+
+- [ ] Connect to Supabase database
+- [ ] Build a submission form for new plans
+- [ ] Deploy to Vercel with a live URL
+- [ ] Open beta to Vanderbilt ChemE students
+- [ ] Expand to other engineering majors
+
+## Local development
+
+​```bash
+npm install
+npm run dev
+​```
+
+Then open `http://localhost:5173` in your browser.
+
+## About
+
+Built by [Iliana Dimopoulos](https://github.com/idimopoulos11), a Vanderbilt ChemE sophomore, as a side project.
